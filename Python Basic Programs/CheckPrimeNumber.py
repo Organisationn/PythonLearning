@@ -10,7 +10,7 @@ def checkPrime(n):
             else:
                 print("prime")
     else:
-        print('Kou school be tora!! Peleipua aaichu au..')
+        print('It"s a special number..')
 
         # if (n > 1):
         #     count = 0
