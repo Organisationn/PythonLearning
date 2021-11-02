@@ -1,5 +1,3 @@
-from random import randrange
-
 sizeOfArray=int(input('Please enter the size of the array: '))
 
 numbersArray=[]
@@ -10,11 +8,7 @@ while(count<sizeOfArray):
         numbersArray.append(number)
         count += 1
     except ValueError:
-        print('This is not a number bro..')
+        print('This is not a number!!!')
         pass
 
 print(numbersArray)
-
-
-
-
